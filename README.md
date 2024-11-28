@@ -8,5 +8,5 @@ Added index.html to make the website exist
 ### v1.1
 Added site and css files
 
-### v1.2
-Attempt to overhaul site to add Dark Mode
+### ~~v1.2~~
+~~Attempt to overhaul site to add Dark Mode~~
