@@ -9,4 +9,7 @@ Added index.html to make the website exist
 Added site and css files
 
 ### ~~v1.2~~
-~~Attempt to overhaul site to add Dark Mode~~
+~~Attempt to overhaul site to add Dark Mode~~ --> Wasn't working, see issues page
+
+### v1.3
+Fixed Dark Mode
