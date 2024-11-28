@@ -1,24 +1,11 @@
-.features24-container2 {
+.features25-container2 {
   width: 100%;
   display: grid;
   grid-gap: var(--dl-space-space-fiveunits);
   position: relative;
   grid-template-columns: 1fr 1fr;
 }
-.features24-image-container {
-  height: 100%;
-  display: flex;
-  position: relative;
-}
-.features24-image {
-  animation-name: fadeIn;
-  animation-delay: 0s;
-  animation-duration: 300ms;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-}
-.features24-tabs-menu {
+.features25-tabs-menu {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
@@ -26,7 +13,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.features24-tab-horizontal {
+.features25-tab-horizontal {
   gap: var(--dl-space-space-twounits);
   cursor: pointer;
   display: flex;
@@ -35,17 +22,17 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.features24-divider-container {
+.features25-divider-container {
   display: flex;
   align-self: stretch;
   align-items: flex-start;
 }
-.features24-container3 {
+.features25-container3 {
   width: 2px;
   align-self: stretch;
   background-color: var(--dl-color-theme-neutral-dark);
 }
-.features24-content {
+.features25-content {
   gap: 16px;
   flex: 1;
   display: flex;
@@ -56,21 +43,31 @@
   flex-direction: column;
   justify-content: center;
 }
-.features24-fragment1 {
-  display: contents;
+.features25-image-container {
+  height: 100%;
+  display: flex;
+  position: relative;
 }
-.features24-text1 {
+.features25-image {
+  animation-name: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.features25-text1 {
   display: inline-block;
 }
-.features24-fragment2 {
-  display: contents;
-}
-.features24-text2 {
+.features25-text2 {
   display: inline-block;
 }
 @media(max-width: 991px) {
-  .features24-container2 {
+  .features25-container2 {
     grid-gap: var(--dl-space-space-twounits);
     grid-template-columns: 1fr;
+  }
+  .features25-tabs-menu {
+    order: 2;
   }
 }

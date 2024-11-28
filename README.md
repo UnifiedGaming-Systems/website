@@ -7,3 +7,6 @@ This repo is all the code used for [UnifiedGaming System's Website](https://unif
 Added index.html to make the website exist
 ### v1.1
 Added site and css files
+
+### v1.2
+Attempt to overhaul site to add Dark Mode
